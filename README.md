@@ -8,7 +8,7 @@ Trafalgar é um site moderno para uma rede de consultas em hospitais. Desenvolvi
 
 - **React**: Para a construção da interface de usuário.
 - **CSS/Styled Components**: Para estilização da aplicação.
-- - **Frontend**: HTML, CSS
+- **Frontend**: HTML, CSS
 
 - ## Uso
 
