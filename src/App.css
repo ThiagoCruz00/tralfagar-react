@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-
-:root{
+:root {
   --azul: #458FF6;
   --branco: #fff;
   --marinho: #233348;
@@ -10,7 +9,7 @@
   --preto: #000000;
 }
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
