@@ -1,24 +1,24 @@
-header{
+header {
     display: flex;
     justify-content: space-around;
     margin: 45px;
     gap: 210px;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-.logo > h3{
+.logo>h3 {
     color: var(--marinho);
     font-size: 24px;
     font-weight: 630;
 }
 
-.logo-text{
+.logo-text {
     background-color: var(--azul);
     border-radius: 30px;
     height: 40px;
@@ -34,20 +34,20 @@ header{
     color: var(--branco);
 }
 
-header > nav{
+header>nav {
     display: flex;
     gap: 40px;
 }
 
-header > nav > a{
+header>nav>a {
     color: var(--cinza);
     font-size: 18px;
     font-weight: 400;
-    
+
     transition: 0.3s ease-in-out;
 }
 
-a:hover{
+a:hover {
     color: var(--roxao);
     font-weight: 700;
     font-size: 18px;
