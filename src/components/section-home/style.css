@@ -1,0 +1,49 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section > img{
+    display: flex;
+    align-items: center;
+    width: 550px;
+}
+
+section > div{
+    width: 445px;
+}
+
+section > div > h1{
+    color: var(--preto);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+section > div > p{
+    color: var(--cinza);
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+section > div > button{
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    background-color: var(--azul);
+
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--branco);
+
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: var(--branco);
+    border: 1px solid var(--azul);
+    color: var(--azul);
+}
