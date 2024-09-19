@@ -10,7 +10,7 @@ export default function SectionHome() {
                     <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
                     <button>Consult today</button>
                 </div>
-                    <img src={Home} alt="Ilustração de sobre saúde" />
+                <img src={Home} alt="Ilustração de sobre saúde" />
             </section>
         </div>
     )
