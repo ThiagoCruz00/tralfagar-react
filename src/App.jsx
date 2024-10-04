@@ -1,7 +1,9 @@
 import './App.css'
-import Header from './components/header'
-import SectionHome from './components/section-home'
-import Services from './components/section-services'
+import Header from './components/header/header'
+import Accessible from './components/section-accessible/accessible'
+import Download from './components/section-download/download'
+import SectionHome from './components/section-home/home'
+import Services from './components/section-services/services'
 
 export default function App() {
   return (
@@ -11,6 +13,10 @@ export default function App() {
       <SectionHome />
 
       <Services />
+
+      <Accessible />
+
+      <Download />
     </>
   )
 }
