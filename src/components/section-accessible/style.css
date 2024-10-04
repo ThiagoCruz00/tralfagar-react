@@ -1,0 +1,60 @@
+.accessible{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 120px 100px;
+}
+
+.accessible > img{
+    width: 47%;
+}
+
+.borda-accessible{
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: var(--preto);
+
+    margin-bottom: 30px;
+}
+
+.learn-more{
+    font-size: 18px;
+    font-weight: 700;
+    
+    width: 200px;
+    height: 60px;
+    margin-top: 35px;
+    border-radius: 55px;
+    background-color: var(--branco);
+    color: var(--azul);
+    border: 1px solid var(--azul);
+
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.learn-more:hover{
+    background-color: var(--azul);
+    color: var(--branco);
+}
+
+.text-accessible{
+    width: 40%;
+}
+
+.text-accessible > h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--preto);
+    margin-bottom: 25px ;
+}
+
+.text-accessible > p{
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--cinza);
+
+    width: 82%;
+}
